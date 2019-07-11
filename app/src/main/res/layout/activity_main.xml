@@ -6,26 +6,31 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
     <!-- display two Button's and a FrameLayout to replace the Fragment's  -->
-    <Button
-        android:id="@+id/Fragment1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Fragment 1"
-        android:textColor="@color/white"
-        android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/Fragment2"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Fragment 2"
-        android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:layout_height="100dp">
+
+        <Button
+            android:id="@+id/Fragment1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment 1"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/Fragment2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fragment 2"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
 
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="10dp" />
+        android:layout_height="match_parent" />
 </LinearLayout>
