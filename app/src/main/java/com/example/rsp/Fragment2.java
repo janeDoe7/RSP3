@@ -1,12 +1,10 @@
-package com.example.fragments2;
+package com.example.rsp;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.Toast;
 
 public class Fragment2 extends Fragment {
 
